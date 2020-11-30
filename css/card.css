@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#card{
+    width: 415px;
+    height: 639px;
+    margin: auto;
+
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.profile{
+    background-image: url(../img/bg.jpg);
+    width: 415px;
+    height: 275px;
+    background-size: cover;
+    
+}
+.man{
+    /* background-image:url(../img/profile.png); */
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    background-color:white;
+    border-radius: 50%;
+    padding-left: 7px;
+}
+.man img{
+    width: 130px;
+}
+.font{
+    text-align: center;
+    color:white;
+    font-weight: 400;
+}
+.h2{
+    color: orange;
+    text-align: center;
+}
+#info{
+    background-color: rgb(212, 207, 207);
+    padding-top: 2px;
+    height: 315px;
+}
+.coffee{
+    text-align: center;
+    }
+   
+.cup{
+    color: orange;
+    text-align: center;
+    float: left;
+    margin-top: -10px;
+}
+.cup:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+    
+}
+.line1{
+    background-color: orange;
+    width: 50px;
+    height: 3px;
+    float: left;
+    margin-left: 150px;
+    margin-top:-2px;
+}
+.line2{
+    background-color: orange;
+    width: 50px;
+    height: 3px;
+    float: left;
+    margin-top: -2px;
+}
+ .line3{
+    width: 5px;
+    height: 32px;
+    background-color: orange;
+        
+}
+.details{
+    width: 396px;
+    height: 32px;
+    background-color: white;
+    margin-top: 31px;
+    margin-left: 15px;
+    
+    
+    
+}
+.contact{
+    float: left;
+    margin: -32px 0 0 33px;
+    font-size: 22px;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    padding: 4px 0 0 4px;
+    background-color: orange;
+   border-radius: 50%; 
+}
+.contact i{
+    color: white;
+    margin-top: 1px;
+    margin-left: -4px;
+}
+
+.contact i:hover{
+    transform: rotatey(360deg);
+    transition: 2s;
+
+}
+.number{
+    padding-top: 4px;
+    padding-left: 2px;
+    position: relative;
+    top: -30px;
+    left: 90px;
+    
+    
+}
+.number a{
+    text-decoration: none;
+}
+.media{
+    background-color: orange;
+    width: 415px;
+    height: 48px;
+
+}
+.icon{
+    color: rgb(90, 112, 177);
+    float: left;
+    margin: 12px 0 0 50px;
+    font-size: 25px;
+}
+.icon a:hover{
+    font-size: 35px;
+    color: white;
+
+}
